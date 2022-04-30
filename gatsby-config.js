@@ -74,6 +74,12 @@ module.exports = {
             },
           },
           {
+            resolve: 'gatsby-remark-embed-gist',
+            options: {
+              username: '<string>',
+            },
+          },
+          {
             resolve: `gatsby-remark-table-of-contents`,
             options: {
               exclude: 'Table of Contents',
